@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif
+}
+:root{
+    
+}
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 1, 1);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+/* logo */
+.logo{
+    margin-top: 15px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(27, 145, 27);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* nav-items */
+.nav_items{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+.nav_items a{
+    padding-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+#navItems:hover{
+    color: rgb(27, 145, 27);
+}
